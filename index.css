@@ -1,0 +1,119 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  display: grid;
+  grid-template-rows: 1fr 5fr 1fr;
+  border-top-right-radius: 50px;
+  border-top-left-radius: 50px;
+  width: 350px;
+  height: 500px;
+  overflow: hidden;
+}
+
+.top {
+  display: flex;
+  justify-content: center;
+  background-color: seagreen;
+  border-bottom: 2px solid white;
+}
+h1 {
+  font-weight: bold;
+  color: white;
+  display: flex;
+  align-items: center;
+}
+
+.mid {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  background-color: seagreen;
+}
+
+.person {
+  display: flex;
+  flex-direction: column;
+}
+
+#order {
+  width: 100%;
+  font-weight: bold;
+  font-size: 50px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  border-radius: 50%;
+  color: seagreen;
+}
+
+.person span:last-child {
+  margin-top: 10px;
+  font-size: 20px;
+  color: white;
+}
+
+.word {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  color: white;
+}
+
+.word span:first-child {
+  font-size: 20px;
+  text-align: center;
+  color: white;
+}
+
+#word {
+  height: 60px;
+  font-size: 40px;
+  font-weight: bold;
+  text-align: center;
+  width: 250px;
+  padding: 5px 0;
+  border-radius: 20px;
+  background-color: white;
+  color: seagreen;
+}
+
+.bot {
+  border: 2px solid seagreen;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+input {
+  padding: 10px;
+  border-radius: 7px;
+  border: 1px solid seagreen;
+  outline: none;
+}
+
+#btn {
+  letter-spacing: 2px;
+  padding: 10px;
+  border-radius: 7px;
+  color: white;
+  background-color: seagreen;
+  font-weight: bold;
+  border: none;
+}
